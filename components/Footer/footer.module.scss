@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cart_sum {
+    display: block;
+}
+
+@media (min-width: 500px) {
+    .cart_sum {
+        display: none;
+    }
+}

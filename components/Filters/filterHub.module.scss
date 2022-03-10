@@ -1,0 +1,43 @@
+.filter_hub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter_hub > div {
+    padding: 7px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter {
+    padding: 10px 5px;
+    margin: 0px 5px;
+    border-radius: 4px;
+    border: 2px solid rgba(128, 128, 128, 0.603);
+    width: 116px;
+}
+
+.filter.select {
+    padding: 9px 5px;
+    cursor: pointer;
+    width: 206px;
+}
+
+.filter.select.rating {
+    width: 146px;
+}
+.label {
+    position: absolute;
+    font-size: 0.65rem;
+    top: -5px;
+    left: 10px;
+    color: #787885;
+    background-color: white;
+    padding: 0px 3px;
+    text-transform: uppercase;
+}
